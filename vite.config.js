@@ -4,8 +4,6 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
     plugins: [react()],
     build: {
-        rollupOptions: {
-            external: ['recoil'], // Add 'recoil' here
-        },
+        outDir: 'dist', // This is the default and should be the directory Render looks for
     },
 });
