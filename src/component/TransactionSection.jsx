@@ -1,6 +1,7 @@
 // components/TransactionSection.jsx
 import React from 'react';
 
+
 const TransactionSection = () => {
   return (
     <section className="flex flex-col gap-6">
@@ -116,13 +117,127 @@ const TransactionSection = () => {
                 <td className="px-3 py-[10px] whitespace-nowrap text-[#4D4D4D]">Today, 2:30 PM</td>
                 <td className="px-3 py-[10px] whitespace-nowrap text-[#1A181E] text-right">₹1200.00</td>
               </tr>
+              <tr className="text-sm">
+                <td className="px-3 py-[10px] whitespace-nowrap text-[#146EB4] font-medium">#281209</td>
+                <td className="px-3 py-[10px] whitespace-nowrap flex items-center gap-[6px] text-[#1A181E]">
+                  <span className="bg-green-500 w-[10px] h-[10px] rounded-full"></span>
+                  Successful
+                </td>
+                <td className="px-3 py-[10px] whitespace-nowrap text-[#4D4D4D]">TRX123456</td>
+                <td className="px-3 py-[10px] whitespace-nowrap text-[#4D4D4D]">Today, 8:45 PM</td>
+                <td className="px-3 py-[10px] whitespace-nowrap text-[#1A181E] text-right">₹1125.00</td>
+              </tr>
+              <tr className="text-sm">
+                <td className="px-3 py-[10px] whitespace-nowrap text-[#146EB4] font-medium">#281209</td>
+                <td className="px-3 py-[10px] whitespace-nowrap flex items-center gap-[6px] text-[#1A181E]">
+                  <span className="bg-green-500 w-[10px] h-[10px] rounded-full"></span>
+                  Successful
+                </td>
+                <td className="px-3 py-[10px] whitespace-nowrap text-[#4D4D4D]">TRX123456</td>
+                <td className="px-3 py-[10px] whitespace-nowrap text-[#4D4D4D]">Today, 8:45 PM</td>
+                <td className="px-3 py-[10px] whitespace-nowrap text-[#1A181E] text-right">₹1125.00</td>
+              </tr>
+              <tr className="text-sm">
+                <td className="px-3 py-[10px] whitespace-nowrap text-[#146EB4] font-medium">#281209</td>
+                <td className="px-3 py-[10px] whitespace-nowrap flex items-center gap-[6px] text-[#1A181E]">
+                  <span className="bg-green-500 w-[10px] h-[10px] rounded-full"></span>
+                  Successful
+                </td>
+                <td className="px-3 py-[10px] whitespace-nowrap text-[#4D4D4D]">TRX123456</td>
+                <td className="px-3 py-[10px] whitespace-nowrap text-[#4D4D4D]">Today, 8:45 PM</td>
+                <td className="px-3 py-[10px] whitespace-nowrap text-[#1A181E] text-right">₹1125.00</td>
+              </tr>
+              <tr className="text-sm">
+                <td className="px-3 py-[10px] whitespace-nowrap text-[#146EB4] font-medium">#281209</td>
+                <td className="px-3 py-[10px] whitespace-nowrap flex items-center gap-[6px] text-[#1A181E]">
+                  <span className="bg-green-500 w-[10px] h-[10px] rounded-full"></span>
+                  Successful
+                </td>
+                <td className="px-3 py-[10px] whitespace-nowrap text-[#4D4D4D]">TRX123456</td>
+                <td className="px-3 py-[10px] whitespace-nowrap text-[#4D4D4D]">Today, 8:45 PM</td>
+                <td className="px-3 py-[10px] whitespace-nowrap text-[#1A181E] text-right">₹1125.00</td>
+              </tr>
+              <tr className="text-sm">
+                <td className="px-3 py-[10px] whitespace-nowrap text-[#146EB4] font-medium">#281209</td>
+                <td className="px-3 py-[10px] whitespace-nowrap flex items-center gap-[6px] text-[#1A181E]">
+                  <span className="bg-green-500 w-[10px] h-[10px] rounded-full"></span>
+                  Successful
+                </td>
+                <td className="px-3 py-[10px] whitespace-nowrap text-[#4D4D4D]">TRX123456</td>
+                <td className="px-3 py-[10px] whitespace-nowrap text-[#4D4D4D]">Today, 8:45 PM</td>
+                <td className="px-3 py-[10px] whitespace-nowrap text-[#1A181E] text-right">₹1125.00</td>
+              </tr>
+              <tr className="text-sm">
+                <td className="px-3 py-[10px] whitespace-nowrap text-[#146EB4] font-medium">#281209</td>
+                <td className="px-3 py-[10px] whitespace-nowrap flex items-center gap-[6px] text-[#1A181E]">
+                  <span className="bg-green-500 w-[10px] h-[10px] rounded-full"></span>
+                  Successful
+                </td>
+                <td className="px-3 py-[10px] whitespace-nowrap text-[#4D4D4D]">TRX123456</td>
+                <td className="px-3 py-[10px] whitespace-nowrap text-[#4D4D4D]">Today, 8:45 PM</td>
+                <td className="px-3 py-[10px] whitespace-nowrap text-[#1A181E] text-right">₹1125.00</td>
+              </tr>
+              <tr className="text-sm">
+                <td className="px-3 py-[10px] whitespace-nowrap text-[#146EB4] font-medium">#281209</td>
+                <td className="px-3 py-[10px] whitespace-nowrap flex items-center gap-[6px] text-[#1A181E]">
+                  <span className="bg-green-500 w-[10px] h-[10px] rounded-full"></span>
+                  Successful
+                </td>
+                <td className="px-3 py-[10px] whitespace-nowrap text-[#4D4D4D]">TRX123456</td>
+                <td className="px-3 py-[10px] whitespace-nowrap text-[#4D4D4D]">Today, 8:45 PM</td>
+                <td className="px-3 py-[10px] whitespace-nowrap text-[#1A181E] text-right">₹1125.00</td>
+              </tr>
+              <tr className="text-sm">
+                <td className="px-3 py-[10px] whitespace-nowrap text-[#146EB4] font-medium">#281209</td>
+                <td className="px-3 py-[10px] whitespace-nowrap flex items-center gap-[6px] text-[#1A181E]">
+                  <span className="bg-green-500 w-[10px] h-[10px] rounded-full"></span>
+                  Successful
+                </td>
+                <td className="px-3 py-[10px] whitespace-nowrap text-[#4D4D4D]">TRX123456</td>
+                <td className="px-3 py-[10px] whitespace-nowrap text-[#4D4D4D]">Today, 8:45 PM</td>
+                <td className="px-3 py-[10px] whitespace-nowrap text-[#1A181E] text-right">₹1125.00</td>
+              </tr>
+              <tr className="text-sm">
+                <td className="px-3 py-[10px] whitespace-nowrap text-[#146EB4] font-medium">#281209</td>
+                <td className="px-3 py-[10px] whitespace-nowrap flex items-center gap-[6px] text-[#1A181E]">
+                  <span className="bg-green-500 w-[10px] h-[10px] rounded-full"></span>
+                  Successful
+                </td>
+                <td className="px-3 py-[10px] whitespace-nowrap text-[#4D4D4D]">TRX123456</td>
+                <td className="px-3 py-[10px] whitespace-nowrap text-[#4D4D4D]">Today, 8:45 PM</td>
+                <td className="px-3 py-[10px] whitespace-nowrap text-[#1A181E] text-right">₹1125.00</td>
+              </tr>
+              <tr className="text-sm">
+                <td className="px-3 py-[10px] whitespace-nowrap text-[#146EB4] font-medium">#281209</td>
+                <td className="px-3 py-[10px] whitespace-nowrap flex items-center gap-[6px] text-[#1A181E]">
+                  <span className="bg-green-500 w-[10px] h-[10px] rounded-full"></span>
+                  Successful
+                </td>
+                <td className="px-3 py-[10px] whitespace-nowrap text-[#4D4D4D]">TRX123456</td>
+                <td className="px-3 py-[10px] whitespace-nowrap text-[#4D4D4D]">Today, 8:45 PM</td>
+                <td className="px-3 py-[10px] whitespace-nowrap text-[#1A181E] text-right">₹1125.00</td>
+              </tr>
+              <tr className="text-sm">
+                <td className="px-3 py-[10px] whitespace-nowrap text-[#146EB4] font-medium">#281209</td>
+                <td className="px-3 py-[10px] whitespace-nowrap flex items-center gap-[6px] text-[#1A181E]">
+                  <span className="bg-green-500 w-[10px] h-[10px] rounded-full"></span>
+                  Successful
+                </td>
+                <td className="px-3 py-[10px] whitespace-nowrap text-[#4D4D4D]">TRX123456</td>
+                <td className="px-3 py-[10px] whitespace-nowrap text-[#4D4D4D]">Today, 8:45 PM</td>
+                <td className="px-3 py-[10px] whitespace-nowrap text-[#1A181E] text-right">₹1125.00</td>
+              </tr>
             </tbody>
           </table>
         </div>
       </div>
       <h5 className="text-center text-gray-500">
-        Made with ❤️ by <a className="underline font-bold" target="_blank" rel="noopener noreferrer" href="https://twitter.com/meet_bigyan20">Shubham Vishwakarma</a>
+        Made with ❤️ by <a className="underline font-bold" target="_blank" rel="noopener noreferrer" >Shubham Vishwakarma</a>
       </h5>
+      <div className="text-center text-gray-500 flex flex-col items-center">
+        <span>Made in India</span>
+        
+      </div>
     </section>
   );
 };

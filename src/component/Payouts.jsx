@@ -5,16 +5,22 @@ import { isDashboardVisibleState } from './atoms'; // Import the visibility atom
 // Separate component for Payout Card
 const PayoutCard = ({ title, amount, orders, nextPayment }) => {
     return (
-        <div className="flex-grow rounded-[8px] bg-white p-5 flex flex-col gap-4 shadow-sm h-fit min-w-[300px]">
-            <h5 className="flex gap-3 items-center text-[#4D4D4D]">
+        <div className="flex-grow rounded-[8px] bg-[#146EB4] p-5 flex flex-col gap-4 shadow-sm h-fit min-w-[300px] transition-colors duration-200 ease-in-out hover:bg-[#0E4F82] active:bg-gray-400 cursor-pointer text-[#F2F2F2]">
+            <h5 className="flex gap-3 items-center text-black">
                 {title}
-                {/* Add an icon or any additional info here */}
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                </svg>
+
             </h5>
             <div className="flex justify-between items-center">
                 <p className="text-3xl font-medium">{amount}</p>
-                <p className="flex items-center font-medium text-base underline text-[#146EB4]">
+                <p className="flex items-center font-medium text-base underline text-black">
                     {orders} Orders
-                    {/* Add an icon or any additional info here */}
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                    </svg>
+
                 </p>
             </div>
             {nextPayment && (
@@ -37,7 +43,8 @@ const Payouts = () => {
     
     
     return (
-        <div className="w-full">
+        
+            <div className="w-full bg-pink-50 ">
             <header className="flex justify-between items-center sm:gap-4 gap-2 sm:px-8 px-4 py-3 border-b border-[#D9D9D9] sticky top-0 bg-[#FFFFFF]">
             <div className="flex gap-2 sm:gap-4 items-center sm:flex-grow">
       <button className="block lg:hidden" onClick={openDashboard}>
